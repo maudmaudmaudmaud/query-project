@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  background: rgb(255,206,182);
+background: linear-gradient(0deg, rgba(255,206,182,1) 0%, rgba(255,238,193,1) 15%, rgba(255,182,234,1) 30%, rgba(223,189,255,1) 43%, rgba(192,215,255,1) 80%, rgba(140,188,255,1) 100%);
+}
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 5em;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 5em;
+}
+
+.date p {
+	font-size: 2em;
+	text-align: center;
+	margin: 50px;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  height: 150px;
+  width: 150px;
+  top: 20px;
+  right: 30px;
+  background-color: #40302C;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+  font-size: 3em;
+}
+
+.active, .collapsible:hover {
+  background-color: #40302C;
+}
+
+.collapsible:after {
+  /* content: '\002B'; */
+  /* color: white;
+  font-weight: bold; */
+  /* float: right; */
+}
+
+.active:after {
+  /* content: "\2212"; */
+}
+
+.content {
+  position: fixed;
+  top: 170px;
+  right: 30px;
+  padding: 0px 30px;
+  font-size: 3em;
+  max-height: 0;
+  width: 80%;
+  border-radius: 50px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #40302C;
+}
+
+.start {
+	margin: 600px 0px 600px 0px;
+}
+
+.bubbleyou {
+    font-family: 'Source Code Pro', monospace;
+		font-size: 2em;
+    max-width: 70%;
+		position: relative;
+		display: inline-block;
+		clear: both;
+		margin-bottom: 40px;
+		padding: 20px 23px;
+		vertical-align: top;
+		border-radius: 20px 20px 20px 5px;
+		float: left;
+		color: #40302C;
+		background-color: white;
+		align-self: flex-start;
+		}
+
+.bubbleyouem {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 2em;
+  max-width: 70%;
+  position: relative;
+  display: inline-block;
+  clear: both;
+  vertical-align: top;
+  border-radius: 20px 20px 20px 5px;
+  float: left;
+  color: #40302C;
+  background-color: transparent;
+  align-self: flex-start;
+  }
+
+    .bubbleyou1 {
+        font-family: 'Source Code Pro', monospace;
+    		font-size: 2em;
+        max-width: 70%;
+    		position: relative;
+    		display: inline-block;
+    		clear: both;
+    		margin-bottom: 10px;
+    		padding: 20px 23px;
+    		vertical-align: top;
+    		border-radius: 20px 20px 20px 5px;
+    		float: left;
+    		color: #40302C;
+    		background-color: white;
+    		align-self: flex-start;
+    		}
+        .bubbleyou1em {
+            font-family: 'Source Code Pro', monospace;
+        		font-size: 2em;
+            max-width: 70%;
+        		position: relative;
+        		display: inline-block;
+        		clear: both;
+        		vertical-align: top;
+        		border-radius: 20px 20px 20px 5px;
+        		float: left;
+        		color: #40302C;
+        		background-color: transparent;
+        		align-self: flex-start;
+        		}
+
+
+.bubbleme {
+		font-size: 2em;
+		position: relative;
+		display: inline-block;
+		clear: both;
+    max-width: 70%;
+		margin-bottom: 40px;
+		padding: 20px 23px;
+		vertical-align: top;
+		border-radius: 20px 20px 0px 20px;
+		float: right;
+		color: #40302C;
+		background-color: white;
+		align-self: flex-end;
+		}
+
+    .bubblemeem {
+    		font-size: 2em;
+    		position: relative;
+    		display: inline-block;
+    		clear: both;
+        max-width: 70%;
+    		vertical-align: top;
+    		border-radius: 20px 20px 0px 20px;
+    		float: right;
+    		color: #40302C;
+    		background-color: transparent;
+    		align-self: flex-end;
+    		}
+
+    .bubbleme1 {
+    		font-size: 2em;
+    		position: relative;
+    		display: inline-block;
+    		clear: both;
+        max-width: 70%;
+    		margin-bottom: 10px;
+    		padding: 20px 23px;
+    		vertical-align: top;
+    		border-radius: 20px 20px 0px 20px;
+    		float: right;
+    		color: #40302C;
+    		background-color: white;
+    		align-self: flex-end;
+    		}
+
+        .bubbleme1em {
+        		font-size: 2em;
+        		position: relative;
+        		display: inline-block;
+        		clear: both;
+            max-width: 70%;
+        		vertical-align: top;
+        		border-radius: 20px 20px 0px 20px;
+        		float: right;
+        		color: #40302C;
+        		background-color: transparent;
+        		align-self: flex-end;
+        		}
+
+
+	.printbutton {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+		position: relative;
+		display: inline-block;
+		clear: both;
+		margin-bottom: 30px;
+		padding: 22px 25px;
+		vertical-align: top;
+		border-radius: 50px;
+		float: right;
+		color: white;
+    width:100%;
+    text-align: center;
+		background-color: #40302C;
+		align-self: flex-end;
+    border: none;
+	}
+
+  .letter {
+    display: none;
+  }
+
+  .end {
+    font-size: 4em;
+    position: relative;
+    display: inline-block;
+    clear: both;
+    margin: 550px 0px 550px 0px;
+    padding: 22px 25px;
+    vertical-align: top;
+    border-radius: 20px 20px 20px 20px;
+    float: right;
+    color: blue;
+    width:100%;
+    text-align: center;
+    align-self: flex-end;
+    border: none;
+  }
+
+.footer {
+  font-size: 2em;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 50px;
+  width:100%;
+  text-align: center;
+}
+
+.langbutton {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  position: relative;
+  display: inline-block;
+  clear: both;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding: 25px 25px;
+  vertical-align: top;
+  border-radius: 50px;
+  float: right;
+  color: #40302C;
+  width:100%;
+  text-align: center;
+  background-color: white;
+  align-self: flex-end;
+  border: none;
+}
+
+  @media print {
+  .collapsible, .content, .start, .date, .bubbleme, .bubbleyou, .bubbleme1, .bubbleyou1, .bubblemeem, .bubbleyouem, .bubbleme1em, .bubbleyou1em, .printbutton, .langbutton {
+    display: none;
+  }
+
+  .letter {
+    display: inherit;
+    margin-top: 6cm;
+  }
+
+  .adress {
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+  }
+
+  h1 {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 1em;
+    text-align: right;
+  }
+
+  }
+  @page {
+    margin: 2cm;
+  }
